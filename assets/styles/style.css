@@ -96,14 +96,24 @@ width: 100%;
             border-style: none;
             margin: 10px;
             padding: 7px;
-            width: 20%;
+           
             border-radius: 5px;
             cursor: pointer;
             background: lightslategray;
             color: white;
         }
           
-
+        .error-message{
+            color: red;
+            font-size: 10px;
+            margin-top: -25px; 
+            position: absolute;
+            
+            left: 50%;
+            transform:translateX(-50%) ;
+            width: 100%; 
+            
+            }
 }
 
 
@@ -141,12 +151,22 @@ width: 100%;
             border-style: none;
             margin: 10px;
             padding: 7px;
-            width: 20%;
+            
             border-radius: 5px;
             cursor: pointer;
             background: lightslategray;
             color: white;
         }
           
-
+        .error-message{
+            color: red;
+            font-size: 8px;
+            margin-top: -25px; 
+            position: absolute;
+            
+            left: 50%;
+            transform:translateX(-50%) ;
+            width: 100%; 
+            
+            }
 }
